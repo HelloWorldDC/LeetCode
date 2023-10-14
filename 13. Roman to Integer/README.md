@@ -2,14 +2,16 @@
 
 Roman numerals are represented by seven different symbols: `I`, `V`, `X`, `L`, `C`, `D` and `M`.
 
-> Symbol &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;      Value
-I &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            1
-V&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            5
-X &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            10
-L &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            50
-C  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           100
-D   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          500
-M &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            1000
+<pre><strong>Symbol</strong>       <strong>Value</strong>
+I             1
+V             5
+X             10
+L             50
+C             100
+D             500
+M             1000</pre>
+
+
 
 For example, `2` is written as `II` in Roman numeral, just two ones added together. `12` is written as `XII`, which is simply `X + II`. The number `27` is written as `XXVII`, which is `XX + V + II`.
 
@@ -24,20 +26,20 @@ Given a roman numeral, convert it to an integer.
 
 **Example 1:**
 
-> **Input:** s = "III"
-**Output:** 3
+> **Input:** s = "III"  
+**Output:** 3  
 **Explanation:** III = 3.
 
 **Example 2:**
 
-> **Input:** s = "LVIII"
-**Output:** 58
+> **Input:** s = "LVIII"  
+**Output:** 58  
 **Explanation:** L = 50, V= 5, III = 3.
 
 **Example 3:**
 
-> **Input:** s = "MCMXCIV"
-**Output:** 1994
+> **Input:** s = "MCMXCIV"  
+**Output:** 1994  
 **Explanation:** M = 1000, CM = 900, XC = 90 and IV = 4.
  
 
@@ -46,5 +48,6 @@ Given a roman numeral, convert it to an integer.
 - `1 <= s.length <= 15`
 - `s` contains only the characters `('I', 'V', 'X', 'L', 'C', 'D', 'M')`.
 - It is **guaranteed** that `s` is a valid roman numeral in the range `[1, 3999]`.
+
 
 Exercise on Webiste: https://leetcode.com/problems/roman-to-integer/
