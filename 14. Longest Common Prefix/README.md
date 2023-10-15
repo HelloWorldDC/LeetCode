@@ -25,4 +25,4 @@ If there is no common prefix, return an empty string `""`.
 - 0 <= strs[i].length <= 200
 - strs[i] consists of only lowercase English letters.
 
-Exercise on Website: https://leetcode.com/problems/longest-common-prefix
+**Exercise on Website:** https://leetcode.com/problems/longest-common-prefix
