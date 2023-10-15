@@ -33,4 +33,4 @@ A **word** is a maximal substring [^1] consisting of non-space characters only.
 
 [^1]: A **substring** is a contiguous non-empty sequence of characters within a string.
 
-Exercise on Website: https://leetcode.com/problems/length-of-last-word/
+**Exercise on Website:** https://leetcode.com/problems/length-of-last-word/
